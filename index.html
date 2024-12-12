@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ucok & Luh De</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Simpli coundown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <h1>Undanagan</h1>
+        <h4>Kepada Bapak/Ibu/Saudara/i:</h4>
+        <h4><span></span></h4>
+
+        <p>Pernikahan dari</p>
+        <h1>Ucok & Luh De</h1>
+
+        <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()"
+          ><i class="bi bi-envelope-fill"></i> Lihat Undangan</a
+        >
+        <p>Mohon maaf apabila ada kesalahan nama dan gelar</p>
+      </main>
+    </section>
+    <!-- 
+    <nav
+      class="mx-auto navbar navbar-expand-md bg-transpent stiky-top my-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Ucok&LuhDe</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Wedding</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rsvp">RSVP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gift">Gifts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+
+    <section id="home" class="home">
+      <div class="req-veda text-center">
+        <h4>
+          Wahai pasangan suami-istri, semoga kalian tetap bersatu dan tidak
+          pernah terpisahkan. Semoga kalian mencapai hidup penuh kebahagiaan,
+          tinggal di rumah yang penuh kegembiraan bersama seluruh keturunanmu.
+        </h4>
+        <h2><i class="bi bi-journal-text"></i> Rg Veda X.85.42.</h2>
+      </div>
+      <div class="container-fluid wedding-container">
+        <div class="row justify-content-center align-items-center min-vh-100">
+          <div class="col-12 text-center mb-4">
+            <h1 class="main-title animate__animated animate__fadeInDown">
+              OM SWASTYASTU
+            </h1>
+            <h4
+              class="sub-text animate__animated animate__fadeIn animate__delay-1s"
+            >
+              Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan
+              Yang Maha Esa kami bermaksud mengundang Bapak/Ibu/Saudara/i pada
+              Upacara Manusa Yadnya Pawiwahan (Pernikahan) putra-putri kami.
+            </h4>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div
+              class="card wedding-card animate__animated animate__fadeInLeft"
+            >
+              <div class="polaroid">
+                <img src="img/avatar.jpg" class="card-img" alt="Bride" />
+              </div>
+              <div class="card-body text-center">
+                <h2 class="couple-name">I Kadek Indriana</h2>
+                <div class="couple-details">
+                  <p>
+                    Putra kedua dari pasangan Bapak I Wayan Suwiska (alm) dengan
+                    Ibu Ni Made Wati
+                  </p>
+                  <p>Jln. Cermai Lingkungan Roban Bitera,Gianyar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div
+              class="card wedding-card animate__animated animate__fadeInRight"
+            >
+              <div class="polaroid">
+                <img src="img/avatar.jpg" class="card-img" alt="Groom" />
+              </div>
+              <div class="card-body text-center">
+                <h2 class="couple-name">Luh Ade Puspita Dewi</h2>
+                <div class="couple-details">
+                  <p>
+                    Putri Kedau dari pasangan Bapak I Wayan Paita dengan Ibu Ni
+                    Kadek Murniati
+                  </p>
+                  <p>Lingkungan Abianbase Kajakauh,Gianyar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="info" class="info">
+      <div class="overlay"></div>
+      <div
+        class="container d-flex justify-content-center align-items-center h-100"
+      >
+        <div class="content">
+          <h1 class="text-center mb-4 text-lg" style="padding: 20px 0">
+            Informasi Acara
+          </h1>
+          <h4 class="mb-3">
+            Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila
+            Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.
+          </h4>
+          <div class="card">
+            <div class="row g-3">
+              <div class="col-md-4 date-box">
+                <h3 class="mb-0">
+                  <i class="bi bi-calendar-event-fill"></i> 08
+                </h3>
+                <small>JAN 2025</small>
+              </div>
+              <div class="col-md-8 text-start">
+                <h5><strong>RESEPSI</strong></h5>
+                <p class="mb-1">
+                  <i class="bi bi-clock"></i> 11:00 WITA - SELESAI
+                </p>
+                <p><i class="bi bi-geo-alt"></i> Br. Roban, Bitera, Gianyar</p>
+                <a href="#" class="btn btn-direction">Petunjuk Arah &rarr;</a>
+                <p>Akan melakukan resepsi pernikan dalam:</p>
+                <div class="simply-countdown"></div>
+              </div>
+            </div>
+          </div>
+          <p class="mt-3">
+            Atas kehadiran dan doa restunya kami ucapkan terimakasih.<br /><strong
+              >Om Shanti Shanti Shanti Om</strong
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block"
+              >&copy; 2025 Ucok & Luh De Wedding. All Rights Reserved.</small
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source
+          src="audio/Putri Bulan - KANTI UMUR NGANTIANG (Official Music Video).mp4"
+          type="audio/mp3"
+        />
+      </audio>
+      <div class="audio-icon-wrapper" style="display: none">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2025, // Target year (required)
+        month: 1, // Target month [1-12] (required)
+        day: 8, // Target day [1-31] (required)
+        hours: 11, // Target hour [0-23], default: 0
+        words: {
+          // Custom labels, with lambda for plurals
+          days: {
+            root: "hari",
+            lambda: (root, n) => (n > 1 ? root + "" : root),
+          },
+          hours: {
+            root: "jam",
+            lambda: (root, n) => (n > 1 ? root + "" : root),
+          },
+          minutes: {
+            root: "menit",
+            lambda: (root, n) => (n > 1 ? root + "" : root),
+          },
+          seconds: {
+            root: "detik",
+            lambda: (root, n) => (n > 1 ? root + "" : root),
+          },
+        },
+      });
+    </script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioWrapper = document.querySelector(".audio-icon-wrapper");
+      const iconAudio = document.querySelector(".audio-icon-wrapper i");
+      const song = document.querySelector("#song");
+
+      let isPlaying = false;
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTo, scrollLeft);
+        };
+      }
+
+      rootElement.style.scrollBehavior = "auto";
+
+      function enableScroll() {
+        song.pause();
+        window.onscroll = function () {
+          rootElement.style.scrollBehavior = "smooth";
+
+          playAudio();
+        };
+      }
+
+      function playAudio() {
+        song.volume = 0.2;
+
+        audioWrapper.style.display = "flex";
+        song.play();
+        isPlaying = true;
+      }
+
+      audioWrapper.onclick = function () {
+        isPlaying = !isPlaying;
+        if (isPlaying) {
+          song.pause();
+          iconAudio.classList.remove("bi-disc");
+          iconAudio.classList.add("bi-pause-circle");
+        } else {
+          song.play();
+          iconAudio.classList.remove("bi-pause-circle");
+          iconAudio.classList.add("bi-disc");
+        }
+      };
+
+      disableScroll();
+    </script>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+
+      const nama = urlParams.get("to");
+
+      const namaContainer = document.querySelector(".hero h4 span");
+
+      namaContainer.innerText = nama;
+    </script>
+  </body>
+</html>
