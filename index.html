@@ -22,6 +22,9 @@
       href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- Animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Simpli coundown -->
     <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
@@ -34,7 +37,7 @@
       id="hero"
       class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
     >
-      <main>
+      <main data-aos="zoom-in">
         <h1>Undanagan</h1>
         <h4>Kepada Bapak/Ibu/Saudara/i:</h4>
         <h4><span></span></h4>
@@ -100,7 +103,7 @@
     </nav> -->
 
     <section id="home" class="home">
-      <div class="req-veda text-center">
+      <div class="req-veda text-center" data-aos="zoom-in-down">
         <h4>
           Wahai pasangan suami-istri, semoga kalian tetap bersatu dan tidak
           pernah terpisahkan. Semoga kalian mencapai hidup penuh kebahagiaan,
@@ -110,7 +113,7 @@
       </div>
       <div class="container-fluid wedding-container">
         <div class="row justify-content-center align-items-center min-vh-100">
-          <div class="col-12 text-center mb-4">
+          <div class="col-12 text-center mb-4" data-aos="fade-down">
             <h1 class="main-title animate__animated animate__fadeInDown">
               OM SWASTYASTU
             </h1>
@@ -123,16 +126,22 @@
             </h4>
           </div>
 
-          <div class="col-md-6 col-lg-4 mb-4">
+          <div
+            class="col-md-6 col-lg-4 mb-4"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div
               class="card wedding-card animate__animated animate__fadeInLeft"
             >
               <div class="polaroid">
-                <img src="img/avatar.jpg" class="card-img" alt="Bride" />
+                <img src="img/ucok.jpeg" class="card-img" alt="Bride" />
               </div>
               <div class="card-body text-center">
-                <h2 class="couple-name">I Kadek Indriana</h2>
-                <div class="couple-details">
+                <h2 class="couple-name" data-aos="fade-right">
+                  I Kadek Indriana
+                </h2>
+                <div class="couple-details" data-aos="fade-left">
                   <p>
                     Putra kedua dari pasangan Bapak I Wayan Suwiska (alm) dengan
                     Ibu Ni Made Wati
@@ -143,16 +152,22 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 mb-4">
+          <div
+            class="col-md-6 col-lg-4 mb-10"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div
               class="card wedding-card animate__animated animate__fadeInRight"
             >
               <div class="polaroid">
-                <img src="img/avatar.jpg" class="card-img" alt="Groom" />
+                <img src="img/luhde.jpeg" class="card-img" alt="Groom" />
               </div>
               <div class="card-body text-center">
-                <h2 class="couple-name">Luh Ade Puspita Dewi</h2>
-                <div class="couple-details">
+                <h2 class="couple-name" data-aos="fade-right">
+                  Luh Ade Puspita Dewi
+                </h2>
+                <div class="couple-details" data-aos="fade-left">
                   <p>
                     Putri Kedau dari pasangan Bapak I Wayan Paita dengan Ibu Ni
                     Kadek Murniati
@@ -171,14 +186,23 @@
         class="container d-flex justify-content-center align-items-center h-100"
       >
         <div class="content">
-          <h1 class="text-center mb-4 text-lg" style="padding: 20px 0">
+          <h1
+            class="text-center mb-4 text-lg"
+            style="padding: 20px 0"
+            data-aos="fade-down"
+          >
             Informasi Acara
           </h1>
-          <h4 class="mb-3">
+          <h4 class="mb-3" data-aos="flip-down">
             Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila
             Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.
           </h4>
-          <div class="card">
+          <div
+            class="card"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <div class="row g-3">
               <div class="col-md-4 date-box">
                 <h3 class="mb-0">
@@ -192,13 +216,17 @@
                   <i class="bi bi-clock"></i> 11:00 WITA - SELESAI
                 </p>
                 <p><i class="bi bi-geo-alt"></i> Br. Roban, Bitera, Gianyar</p>
-                <a href="https://maps.app.goo.gl/tXjQSsXYigJFjae27" class="btn btn-direction">Petunjuk Arah &rarr;</a>
+                <a
+                  href="https://maps.app.goo.gl/tXjQSsXYigJFjae27"
+                  class="btn btn-direction"
+                  >Petunjuk Arah &rarr;</a
+                >
                 <p>Akan melakukan resepsi pernikan dalam:</p>
                 <div class="simply-countdown"></div>
               </div>
             </div>
           </div>
-          <p class="mt-3">
+          <p class="mt-3" data-aos="fade-up">
             Atas kehadiran dan doa restunya kami ucapkan terimakasih.<br /><strong
               >Om Shanti Shanti Shanti Om</strong
             >
@@ -325,6 +353,9 @@
       const namaContainer = document.querySelector(".hero h4 span");
 
       namaContainer.innerText = nama;
+    </script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>

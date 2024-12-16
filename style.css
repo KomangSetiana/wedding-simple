@@ -7,9 +7,12 @@
 
 body {
   font-size: 1.2rem;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Playfair Display", serif;
   min-height: 2000px;
 }
+/* * {
+  outline: 1px solid red;
+} */
 
 .hero {
   min-height: 100vh;
@@ -57,22 +60,6 @@ body {
   background-color: #ad998d;
 }
 
-.my-navbar {
-  background-color: rgba(255, 255, 255, 0.115) !important;
-}
-
-.my-navbar .navbar-brand,
-.my-navbar .offcanvas-title {
-  font-family: "Sacramento", cursive;
-  font-size: 3.2rem;
-  font-weight: bold;
-  color: #958f8f;
-}
-
-.my-navbar .nav-link {
-  text-transform: uppercase;
-}
-
 .home {
   background-image: url(img/bg-home1.jpg);
   min-height: 100vh;
@@ -101,9 +88,10 @@ body {
   font-weight: bold;
 } */
 
-.home h3 {
+.home h4 {
   color: #666;
   font-size: 1.4rem;
+  padding: 30px;
   margin-bottom: 1rem;
 }
 
@@ -165,17 +153,18 @@ body {
 .couple-name {
   color: #444;
   font-family: "Playfair Display", serif;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
   font-weight: 700;
 }
 
 .couple-details {
   color: #444;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
   line-height: 1.8;
-  font-weight: 300;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Animation classes */
@@ -256,7 +245,7 @@ footer {
   font-size: 4rem;
   position: fixed;
   bottom: 2.5rem;
-  right: 2rem;
+  right: 1rem;
   cursor: pointer;
   color: #947c6c;
   opacity: 0.5;
